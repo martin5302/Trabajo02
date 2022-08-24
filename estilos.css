@@ -1,0 +1,132 @@
+* {
+	color: white;
+	padding:0; 
+	margin:0;
+}
+
+body {
+	background: url(fondo2.jpg);
+}
+
+header {
+	background: blue;
+	width: 100%;
+	float: right;
+}
+
+footer {
+	background: blue;
+}
+
+header li {
+	float: right;
+	font-size: 22px;
+}
+
+header ul {
+	list-style: none;
+}
+
+header nav {
+	overflow: hidden;
+	font-family: tahoma;
+}
+
+header a {
+	display: block;
+	padding: 25px;
+	text-decoration: none;
+}
+
+header a:hover {
+	background: #1C72EE;
+}
+
+header img {
+	float: left;
+	height: 75px;
+}
+
+section {
+	font-family: tahoma;
+	text-align: justify;
+}
+
+section h2 {
+	text-align: center;
+}
+
+section article {
+	border-radius: 10px;
+	background: rgb(144, 203, 238);	
+	width: 55%;
+	padding: 0% 5%;
+	border-style: solid;
+}
+
+h2{
+	margin-bottom: 5%;
+}
+
+.primero {
+	float: left;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+
+.segundo {
+	clear: both;
+	float: right;
+	margin-top: 100px;
+	margin-right: 50px;
+}
+
+.tercero {
+	clear: both;
+	float: left;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+
+.cuarto {
+	clear: both;
+	float: right;
+	margin-top: 100px;
+	margin-right: 50px;
+}
+
+article img {
+	height: 200px;
+	margin: auto;
+	display: block;
+}
+
+footer {
+	clear: both;
+	position: relative;
+	bottom: 0px;
+	top: 100px;
+}
+
+footer p {
+	font-size: 20px;
+	padding: 10px;
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+/*width - ancho
+height - alto
+margin - bordes externos
+padding - bordes internos
+border - borde xd
+
+.zzz especificar clase	
+
+position: relative;  (top,bottom) - alinear caja
